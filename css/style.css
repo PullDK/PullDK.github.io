@@ -87,21 +87,21 @@
     
     label {
     width: 100%; /* Ocupar toda a largura do container */
-    margin-bottom: 10px; / Espaçamento entre os elementos /
-    text-align: left; / Alinhamento do texto */
+    margin-bottom: 10px; /* Espaçamento entre os elementos /
+    text-align: left; /* Alinhamento do texto */
     }
     
     input[type="text"], input[type="email"], textarea {
     width: 100%; /* Ocupar toda a largura do container */
-    padding: 10px; / Espaçamento interno /
-    border: 1px solid #ccc; / Estilo da borda */
+    padding: 10px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Estilo da borda */
     }
     
     input[type="submit"] {
     background-color: #4CAF50; /* Cor de fundo */
-    color: white; / Cor do texto /
-    padding: 12px 20px; / Espaçamento interno /
-    border: none; / Remover borda /
+    color: white; /* Cor do texto */
+    padding: 12px 20px; /* Espaçamento interno */
+    border: none; /* Remover borda */
  
     }
     
