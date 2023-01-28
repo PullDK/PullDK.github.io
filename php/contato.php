@@ -18,7 +18,8 @@ $header = "From:pullgbr@gmail.com"."\r\n".
             "Reply-To:".$email."\e\n".
             "X=Mailer:PHP/".phpversion();
 
-if(mail($to,$subject,$body $header) ){
+
+if(mail($to,$subject,$body,$header) ){
 
 echo("Email enviado com sucesso!");
 
