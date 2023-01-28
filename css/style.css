@@ -79,11 +79,14 @@
     text-align: center; /* Alinhamento do texto */
     }
     
-    form {
-    display: flex; /* Organizar os elementos em linha */
-    flex-wrap: wrap; /* Quebrar elementos para a próxima linha se necessário */
-    justify-content: center; /* Centralizar os elementos */
-    }
+    .form .field {
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+     }
+     
     
     label {
     width: 100%; /* Ocupar toda a largura do container */
