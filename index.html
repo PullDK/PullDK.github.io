@@ -33,10 +33,10 @@
       <div class="section"> 
         <h2>Contato</h2> 
         <p>Se você tiver alguma pergunta ou deseja entrar em contato comigo para discutir um projeto, por favor, preencha o formulário abaixo ou envie um e-mail para joaosilva@email.com.</p>
-        <form>
-          <label>Nome: <input type="text" name="nome"></label>
-          <label>E-mail: <input type="email" name="email"></label>
-          <label>Mensagem: <textarea name="mensagem"></textarea></label>
+        <form class="form" method="post" action="php\contato.php">
+          <input class="field" name="name" placeholder="Nome">
+          <input class="field" name="email" placeholder="E-mail">
+          <textarea name="mesage" id="" cols="30" rows="1"placeholder="Digite sua mensagem"></textarea>
           <input type="submit" value="Enviar">
         </form>
       </div>
